@@ -49,7 +49,8 @@ app.use((req,res)=>{
 ```
 
 ## next
-`the next middleware function is is donoted by the car`
+`The `next` function is used to pass control to the next middleware in the stack. If you call `next()`, the request-response cycle moves on to the next middleware function defined in the stack.`
+
 
 ```javascript 
 app.use((req,res,next)=>{
@@ -182,8 +183,6 @@ app.use("/api",checkToken,(req,res)=>{
 	res.send("Data");
 })
 ```
-
-
 ### Error Handelling 
 `Express Default Error Handeller.`
 
@@ -192,4 +191,67 @@ app.use("/api",checkToken,(req,res)=>{
 - `Syntax Error :`
 	 `This type of error getting fixed during an development stage.`
 - `Errors During Production :`
-	 `Suppose the project is using an Google map API's, If error is occured there  then the there will be an error.`
+	 `Suppose the project is using an Google map API's, If error is occured there  error will be not the system generated, It will be the man made.`
+	```javascript 
+ app.use("/api",(req,res,next)=>{
+ abc = abcd;
+ });
+	```
+
+Error : 
+###### ReferenceError: abcd is not defined  
+    at G:\learn\index.js:27:5  
+    at Layer.handle [as handle_request] (G:\learn\node_modules\express\lib\router\layer.js:95:5)  
+    at trim_prefix (G:\learn\node_modules\express\lib\router\index.js:328:13)  
+    at G:\learn\node_modules\express\lib\router\index.js:286:9  
+    at Function.process_params (G:\learn\node_modules\express\lib\router\index.js:346:12)  
+    at next (G:\learn\node_modules\express\lib\router\index.js:280:10)  
+    at expressInit (G:\learn\node_modules\express\lib\middleware\init.js:40:5)  
+    at Layer.handle [as handle_request] (G:\learn\node_modules\express\lib\router\layer.js:95:5)  
+    at trim_prefix (G:\learn\node_modules\express\lib\router\index.js:328:13)  
+    at G:\learn\node_modules\express\lib\router\index.js:286:9ldsj
+
+`How bad it's looking !!`
+`so there is an approch to show the error that is simply understandale by the user`
+
+```javascript
+const checkTocken = (req,res,next)=>{
+	let {token} = req.query;
+	if(token === "give access"){
+	next();
+	//now the next request and response cycle continues.
+   }
+   
+   throw new error("ACCESS DENIED!");
+};
+app.use("/api",checkToken,(req,res)=>{
+	res.send("Data");
+})
+```
+
+
+```javascript
+// ExpressError.js
+class expressError extends Error {
+    constructor(status,message) {
+        super();
+        this.status = status;
+        this.message = message;
+    }
+
+}
+module.exports = expressError;
+```
+
+```javascript
+const expressError = require("./ExpressError")
+.
+.
+.
+throw new expressError(401,"ACCESS DENIED!");
+				//    status code, message 
+				// Although we can also send the header in the error 
+```
+
+
+
