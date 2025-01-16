@@ -2,8 +2,6 @@
 
 `some works we have to do after getting an request and before sending an response that is known as 'Middlewares'`
 
-![[MERN-Middlewares]]
-
 Middleware functions :
 
 `1. Method_override`
@@ -255,3 +253,95 @@ throw new expressError(401,"ACCESS DENIED!");
 
 
 
+## Sending an error ;
+
+```javascript
+  app.get("/admin", (req, res) => {
+    throw new expressError(403,"Access to admin is forbidden");
+  });
+```
+
+
+### To Handel the Asynchronous Error 
+
+```javascript
+app.get("/chats/:id", async (req, res, next) => {
+    try {
+        let { id } = req.params;
+        let chats = await chat.findById(id); // Ensure this matches your Mongoose model and schema
+        if (!chats) {
+        //---------------------------------------------------------
+            return next(new ExpressError("Chat not found", 404));
+        }
+        res.render("edit.ejs", { Singlechat: chats });
+    } catch (err) {
+        next(err); // Pass any unexpected errors to the error-handling middleware
+    }
+});
+
+// ERROR-HANDLING MIDDLEWARE
+app.use((err, req, res, next) => {
+    const { statusCode = 500, message = "Something went wrong!" } = err;
+    res.status(statusCode).render("error.ejs", { err }); // Ensure `error.ejs` exists and accepts `err`
+});
+```
+
+
+`In summary how can we handel the error's`
+`1. Handelliing the normal Errors :`
+`This type of error can be handeled by creating the class of the error and the throwing that error whenever error condition can be triggered.`
+
+`2. Handelling the 'async Error :`
+`These type of error can be handeled through the directly involking the next(metioning the error here)`
+`for e.g  : `
+
+```javascript
+app.get("/chats/:id", async (req, res, next) => {
+    try {
+        let { id } = req.params;
+        let chats = await chat.findById(id); 
+        if (!chats) {
+            return next(new ExpressError("Chat not found", 404));
+// This can be the asyncronous error, Because 
+        }
+        res.render("edit.ejs", { Singlechat: chats });
+    } catch (err) {
+        next(err); // Pass any unexpected errors to the error-handling middleware
+    }
+});
+```
+
+`3. Try-catch :`
+
+`If `id` is invalid, malformed, or does not match the expected format of the `_id` field in the database, the database query might throw an error or reject the promise.
+`Effect: The code inside the `try` block will jump to the `catch` block, invoking the error-handling middleware with the thrown error.`
+
+```javascript
+app.get("/chats/:id", async (req, res, next) => {
+    try {
+        let { id } = req.params;
+        let chats = await chat.findById(id); 
+        if (!chats) {
+            return next(new ExpressError("Chat not found", 404));
+// This can be the asyncronous error, Because 
+        }
+        res.render("edit.ejs", { Singlechat: chats });
+    } catch (err) {
+        next(err); // Pass any unexpected errors to the error-handling middleware
+    }
+});
+```
+
+
+`Summary of the code : The asynchronous error could arise from `chat.findById(id)` due to database issues or invalid `id` values. Your current use of `try-catch` effectively mitigates these issues.`
+
+
+`try-catch is to much repetative, we to overcome this we use wrap assync !`
+
+```javascript
+function wrapAsync(fn){
+	 return function(req,res,next){
+		 fn(req,res,next).catch(err);
+	 }
+}
+```

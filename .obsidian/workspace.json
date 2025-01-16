@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "230e08f0fa5ceb15",
+        "id": "e675cf6b7fcd4550",
         "type": "tabs",
         "children": [
           {
-            "id": "38ea7048c1454ff2",
+            "id": "9aac854d16c96800",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -18,21 +18,16 @@
             }
           },
           {
-            "id": "1e1518556064d2f3",
+            "id": "01566e2e16420136",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MERN STACK/Middlewares.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Middlewares"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,18 +166,45 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "1e1518556064d2f3",
+  "active": "9aac854d16c96800",
   "lastOpenFiles": [
-    "MERN STACK/Error Handelling.md",
-    "MERN STACK/Middlewares.md",
-    "Postman API's/Variables.md",
-    "Postman API's/Query Parameters.md",
-    "Postman API's/POST Request.md",
     "Postman API's/API Types.md",
-    "Postman API's",
-    "Pasted image 20250114174640.png",
-    "MERN STACK",
+    "sample request.md",
+    "MERN STACK/Node/Asynchronous Programming/Asynchronous Programming.md",
+    "MERN STACK/Express/Express.md",
+    "MERN STACK/Node/Error Handelling.md",
+    "MERN STACK/Node/Middlewares.md",
+    "MERN STACK/Node/Node.js.md",
+    "Databases/SQL/SqL.md",
+    "Databases/SQL/Node with SQL.md",
+    "Databases/Databases.md",
+    "Databases/MongoDB/MongoDB.md",
+    "Databases/MongoDB/Mongoose.md",
+    "Databases/MongoDB",
+    "Databases",
+    "Databases/SQL/mysql-2 package.md",
+    "Databases/SQL",
+    "MERN STACK/Node/introduction to Node.js.md",
+    "MERN STACK/Express/Parameters.md",
+    "MERN STACK/Node/feature of the node.md",
+    "MERN STACK/Express",
+    "MERN STACK/Node/Asynchronous Programming",
+    "MERN STACK/Node",
+    "MERN STACK/Express/Templating.md",
+    "MERN STACK/Express/Routes.md",
+    "Excalidraw/sample request.md",
+    "Excalidraw/sample req.png",
+    "Excalidraw/MERN-Middlewares.md",
+    "Excalidraw/create workspace.md",
+    "MERN STACK/Node/what is node js.md",
+    "Untitled 1.md",
+    "Postman API's/(POSTMAN)REST API.md",
     "JAVA/1. Memory Management In Java – Stack And Heap.md",
+    "Pasted Image 20250112192040_929.png.md",
+    "IMG/Pasted image 20250116083340.png",
+    "Postman API's",
+    "IMG/Pasted image 20250114174640.png",
+    "MERN STACK",
     "IMG/variables in postman.png",
     "IMG/Post REQ SEND.png",
     "IMG/Query Parameters.png",
@@ -190,18 +212,7 @@
     "IMG/Create Workspace.png",
     "IMG/create collection.png",
     "IMG/add API key as header.png",
-    "IMG/add API key as header..png",
     "IMG",
-    "Excalidraw/sample request.md",
-    "Excalidraw/sample req.png",
-    "Excalidraw/MERN-Middlewares.md",
-    "Excalidraw/create workspace.md",
-    "Excalidraw",
-    "Excalidraw/Drawing 2025-01-12 19.01.10.excalidraw.md",
-    "Excalidraw/Drawing 2025-01-12 16.53.46.excalidraw.md",
-    "2025-01-12.md",
-    "JAVA/MEMRY ALLOCATION",
-    "JAVA",
-    "Welcome.md"
+    "Excalidraw"
   ]
 }
