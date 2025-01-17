@@ -4,30 +4,205 @@
     "type": "split",
     "children": [
       {
-        "id": "e675cf6b7fcd4550",
+        "id": "acd0e4a3e444d21c",
         "type": "tabs",
         "children": [
           {
-            "id": "9aac854d16c96800",
+            "id": "eb1ff4765db71af4",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
+              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
           },
           {
-            "id": "01566e2e16420136",
+            "id": "1accf68680575217",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Libraries.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Libraries"
+            }
+          },
+          {
+            "id": "872db359d5ba993b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Libraries.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Libraries"
+            }
+          },
+          {
+            "id": "1aebeb541d16ff1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MERN STACK/Node/Middlewares.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Middlewares"
+            }
+          },
+          {
+            "id": "70afa24be0697da3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MERN STACK/Express/Templating.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Templating"
+            }
+          },
+          {
+            "id": "0109a22996767285",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MERN STACK/Express/EJS Mate.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "EJS Mate"
+            }
+          },
+          {
+            "id": "bf08c34af285b486",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MERN STACK/Express/EJS Mate.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "EJS Mate"
+            }
+          },
+          {
+            "id": "77f678d646bd1c9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/MongoDB/MongoDB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MongoDB"
+            }
+          },
+          {
+            "id": "16569775a153c2ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/MongoDB/MongoDB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MongoDB"
+            }
+          },
+          {
+            "id": "ccd19ab248968162",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/MongoDB/MongoDB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MongoDB"
+            }
+          },
+          {
+            "id": "163f3b574fd97e35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/MongoDB/Operations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Operations"
+            }
+          },
+          {
+            "id": "e109e7a14a55ce2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/MongoDB/Operations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Operations"
+            }
+          },
+          {
+            "id": "e303e702ef546ddd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/MongoDB/Mongoose.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mongoose"
+            }
+          },
+          {
+            "id": "a5a73017275d40b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dotenv.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "dotenv"
             }
           }
-        ]
+        ],
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -166,20 +341,27 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "9aac854d16c96800",
+  "active": "a5a73017275d40b0",
   "lastOpenFiles": [
+    "Libraries.md",
+    "Libraries",
+    "dotenv.md",
+    "MERN STACK/Node/Node.js.md",
+    "MERN STACK/Node/Modules in node.md",
+    "Databases/MongoDB/Mongoose.md",
+    "Databases/MongoDB/Operations.md",
+    "Databases/MongoDB/MongoDB.md",
+    "MERN STACK/Express/EJS Mate.md",
+    "MERN STACK/Express/Templating.md",
+    "MERN STACK/Node/Middlewares.md",
+    "MERN STACK/Node/Error Handelling.md",
     "Postman API's/API Types.md",
     "sample request.md",
     "MERN STACK/Node/Asynchronous Programming/Asynchronous Programming.md",
     "MERN STACK/Express/Express.md",
-    "MERN STACK/Node/Error Handelling.md",
-    "MERN STACK/Node/Middlewares.md",
-    "MERN STACK/Node/Node.js.md",
     "Databases/SQL/SqL.md",
     "Databases/SQL/Node with SQL.md",
     "Databases/Databases.md",
-    "Databases/MongoDB/MongoDB.md",
-    "Databases/MongoDB/Mongoose.md",
     "Databases/MongoDB",
     "Databases",
     "Databases/SQL/mysql-2 package.md",
@@ -190,17 +372,10 @@
     "MERN STACK/Express",
     "MERN STACK/Node/Asynchronous Programming",
     "MERN STACK/Node",
-    "MERN STACK/Express/Templating.md",
     "MERN STACK/Express/Routes.md",
     "Excalidraw/sample request.md",
     "Excalidraw/sample req.png",
     "Excalidraw/MERN-Middlewares.md",
-    "Excalidraw/create workspace.md",
-    "MERN STACK/Node/what is node js.md",
-    "Untitled 1.md",
-    "Postman API's/(POSTMAN)REST API.md",
-    "JAVA/1. Memory Management In Java – Stack And Heap.md",
-    "Pasted Image 20250112192040_929.png.md",
     "IMG/Pasted image 20250116083340.png",
     "Postman API's",
     "IMG/Pasted image 20250114174640.png",
@@ -212,7 +387,6 @@
     "IMG/Create Workspace.png",
     "IMG/create collection.png",
     "IMG/add API key as header.png",
-    "IMG",
-    "Excalidraw"
+    "IMG"
   ]
 }
