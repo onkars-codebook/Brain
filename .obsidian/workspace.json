@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eb1ff4765db71af4",
+            "id": "52588b082c5ed2a5",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,185 +20,183 @@
             }
           },
           {
-            "id": "1accf68680575217",
+            "id": "56f70cda2dcd3376",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Libraries.md",
+                "file": "Postman API's/Variables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Libraries"
+              "title": "Variables"
             }
           },
           {
-            "id": "872db359d5ba993b",
+            "id": "63964265462da2a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Libraries.md",
+                "file": "Postman API's/Query Parameters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Libraries"
+              "title": "Query Parameters"
             }
           },
           {
-            "id": "1aebeb541d16ff1e",
+            "id": "70ea5b2bae4c2d80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MERN STACK/Node/Middlewares.md",
+                "file": "status codes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Middlewares"
+              "title": "status codes"
             }
           },
           {
-            "id": "70afa24be0697da3",
+            "id": "95a61b840f47b5eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MERN STACK/Express/Templating.md",
+                "file": "Postman API's/POST Request.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Templating"
+              "title": "POST Request"
             }
           },
           {
-            "id": "0109a22996767285",
+            "id": "5ee362a1eaf3428f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MERN STACK/Express/EJS Mate.md",
+                "file": "Postman API's/Script.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EJS Mate"
+              "title": "Script"
             }
           },
           {
-            "id": "bf08c34af285b486",
+            "id": "07f336a92359bd34",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "MERN STACK/Express/EJS Mate.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.8.4"
               },
-              "icon": "lucide-file",
-              "title": "EJS Mate"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
             }
           },
           {
-            "id": "77f678d646bd1c9d",
+            "id": "8e6e18844a2ec84e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/MongoDB/MongoDB.md",
+                "file": "MERN STACK/Node/Node.js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MongoDB"
+              "title": "Node.js"
             }
           },
           {
-            "id": "16569775a153c2ef",
+            "id": "b3280c2f3dcc4b2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/MongoDB/MongoDB.md",
+                "file": "MERN STACK/JS/core js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MongoDB"
+              "title": "core js"
             }
           },
           {
-            "id": "ccd19ab248968162",
+            "id": "2d6bbf2e709ffed0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/MongoDB/MongoDB.md",
+                "file": "MERN STACK/JS/Regular expression.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MongoDB"
+              "title": "Regular expression"
             }
           },
           {
-            "id": "163f3b574fd97e35",
+            "id": "f98a177d50180c18",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/MongoDB/Operations.md",
+                "file": "Postman API's/status codes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Operations"
+              "title": "status codes"
             }
           },
           {
-            "id": "e109e7a14a55ce2a",
+            "id": "64a0642a218a9be3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/MongoDB/Operations.md",
+                "file": "React.js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Operations"
+              "title": "React.js"
             }
           },
           {
-            "id": "e303e702ef546ddd",
+            "id": "6e9c6c8cdbac6492",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/MongoDB/Mongoose.md",
+                "file": "React.js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mongoose"
+              "title": "React.js"
             }
           },
           {
-            "id": "a5a73017275d40b0",
+            "id": "30c855d843ee9021",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dotenv.md",
+                "file": "React.js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dotenv"
+              "title": "React.js"
             }
           }
         ],
@@ -221,7 +219,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -258,8 +257,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9ae64a27862c183d",
@@ -276,7 +274,7 @@
               "type": "backlink",
               "state": {
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -323,7 +321,8 @@
               "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -341,52 +340,53 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "a5a73017275d40b0",
+  "active": "30c855d843ee9021",
   "lastOpenFiles": [
-    "Libraries.md",
-    "Libraries",
-    "dotenv.md",
+    "JSX.md",
+    "React.js.md",
     "MERN STACK/Node/Node.js.md",
-    "MERN STACK/Node/Modules in node.md",
+    "Postman API's/status codes.md",
+    "React",
+    "JAVA/Memory allocation.md",
+    "JAVA/function overloading.md",
+    "JAVA/Call by value and Refrence.md",
+    "MERN STACK/JS/Regular expression.md",
+    "MERN STACK/JS",
+    "MERN STACK/JS/core js.md",
+    "Postman API's/POST Request.md",
+    "Postman API's/Query Parameters.md",
+    "Postman API's/Variables.md",
+    "Postman API's/Script.md",
+    "Postman API's/API Types.md",
     "Databases/MongoDB/Mongoose.md",
     "Databases/MongoDB/Operations.md",
-    "Databases/MongoDB/MongoDB.md",
-    "MERN STACK/Express/EJS Mate.md",
-    "MERN STACK/Express/Templating.md",
-    "MERN STACK/Node/Middlewares.md",
-    "MERN STACK/Node/Error Handelling.md",
-    "Postman API's/API Types.md",
-    "sample request.md",
-    "MERN STACK/Node/Asynchronous Programming/Asynchronous Programming.md",
     "MERN STACK/Express/Express.md",
-    "Databases/SQL/SqL.md",
-    "Databases/SQL/Node with SQL.md",
+    "MERN STACK/Node/Middlewares.md",
+    "Databases/MongoDB/MongoDB.md",
     "Databases/Databases.md",
+    "MERN STACK/Node/Modules in node.md",
+    "MERN STACK/Node/Asynchronous Programming/DealwithAPI'S.md",
+    "MERN STACK/Node/Asynchronous Programming/promises.md",
+    "MERN STACK/Libraries/EJS Mate.md",
+    "JAVA/jAVA.md",
+    "MERN STACK/Libraries/dotenv.md",
+    "JAVA/Java Basics",
+    "IMG/Pasted image 20250118082234.png",
+    "IMG/Pasted image 20250118171500.png",
+    "IMG/Pasted image 20250118171427.png",
+    "IMG/Pasted image 20250118164035.png",
+    "MERN STACK/Libraries",
     "Databases/MongoDB",
     "Databases",
-    "Databases/SQL/mysql-2 package.md",
     "Databases/SQL",
-    "MERN STACK/Node/introduction to Node.js.md",
-    "MERN STACK/Express/Parameters.md",
-    "MERN STACK/Node/feature of the node.md",
     "MERN STACK/Express",
     "MERN STACK/Node/Asynchronous Programming",
     "MERN STACK/Node",
-    "MERN STACK/Express/Routes.md",
-    "Excalidraw/sample request.md",
     "Excalidraw/sample req.png",
-    "Excalidraw/MERN-Middlewares.md",
     "IMG/Pasted image 20250116083340.png",
-    "Postman API's",
     "IMG/Pasted image 20250114174640.png",
-    "MERN STACK",
     "IMG/variables in postman.png",
     "IMG/Post REQ SEND.png",
-    "IMG/Query Parameters.png",
-    "IMG/Java Memory Allocation.png",
-    "IMG/Create Workspace.png",
-    "IMG/create collection.png",
-    "IMG/add API key as header.png",
-    "IMG"
+    "IMG/Query Parameters.png"
   ]
 }

@@ -1,5 +1,7 @@
 [[Mongoose]]
 [[Operations]]
+
+For the better 
 # Introduction to MongoDB
 
 MongoDB is a source-available, cross-platform, document-oriented database program. Classified as a NoSQL database, it utilizes JSON-like documents with optional schemas.

@@ -25,6 +25,7 @@ MQTT is a `lightweight messaging protocol` for low-bandwidth, high-latency, or u
 | **Public API**  | Open to anyone, can be accessed by any developer.              |
 | **Private API** | Restricted to internal use within an organization.             |
 | **Partner API** | Shared between organizations with an established relationship. |
+|                 |                                                                |
 
 ---
 

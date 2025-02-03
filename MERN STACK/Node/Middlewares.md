@@ -95,7 +95,6 @@ app.use((req,res,next)=>{
 `Output:`  ``
 
 ##### `Visit the site for more info :`
-
                   `https://expressjs.com/en/5x/api.html#req` 
 
 
@@ -164,9 +163,7 @@ app.use("/api",(req,res,next)=>{
 
 `http://localhost:8080/api?token=giveaccess`
 
-
 ### Multiple Middlewares
-
 ```javascript
 const checkTocken = (req,res,next)=>{
 	let {token} = req.query;
@@ -219,7 +216,6 @@ const checkTocken = (req,res,next)=>{
 	next();
 	//now the next request and response cycle continues.
    }
-   
    throw new error("ACCESS DENIED!");
 };
 app.use("/api",checkToken,(req,res)=>{
@@ -345,3 +341,4 @@ function wrapAsync(fn){
 	 }
 }
 ```
+![[Pasted image 20250118082234.png]]

@@ -1,2 +1,2 @@
 EJS 
-[[EJS Mate]]
+[[MERN STACK/Express/EJS Mate]]

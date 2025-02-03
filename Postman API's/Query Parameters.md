@@ -13,3 +13,10 @@
 
 ![[Query Parameters.png]]
 
+To access the query parameter's :
+
+```javascript 
+	req.query;
+    //for the path parameters
+	req.params;
+```
