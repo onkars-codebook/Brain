@@ -199,8 +199,7 @@
               "title": "React.js"
             }
           }
-        ],
-        "currentTab": 13
+        ]
       }
     ],
     "direction": "vertical"
@@ -340,8 +339,9 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "30c855d843ee9021",
+  "active": "52588b082c5ed2a5",
   "lastOpenFiles": [
+    "React.js.md",
     "1/logs/refs/remotes/origin/main",
     "1/logs/refs/remotes/origin",
     "1/logs/refs/heads/main",
@@ -352,9 +352,7 @@
     "1/objects/f1/c6b056f0c9ccdb7561d657f1aa23692ee91508",
     "1/objects/f5/880cc2bc25b565d0ace663684200643706eabf",
     "1/objects/f3/efd2fb6c7e490e056b43a389cfba14bf5b6bf2",
-    "1/objects/f0/0fbb68a435cb9479b3d7c64adf4743c44682d8",
     "JSX.md",
-    "React.js.md",
     "MERN STACK/Node/Node.js.md",
     "Postman API's/status codes.md",
     "JAVA/Memory allocation.md",
